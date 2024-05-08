@@ -1,0 +1,14 @@
+menus com o estilo "pink"
+
+fazer as roupas mudarem qnd for necessario
+
+*UI da roupa
+-varias abas
+-cada uma possui um tipo de roupa diferente 
+-estilo "pink"*
+
+botao de ready
+
+*menu de vitoria
+-texto de vitoria
+-sprite diferente(?)*

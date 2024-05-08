@@ -1,10 +1,33 @@
-.pink{
+button:hover{
+   background-color: palevioletred;
 
+
+
+}
+
+
+
+#pink{
    font-family: "Comic Sans MS", "Comic Sans", cursive;
    border-color: pink;
    justify-content: center;
+}
+
+.title{
+  font-family: "Brush Script MT", "Brush Script Std", cursive;
+  color: plum;
+  justify-items: center;
 
 }
+
+
+.center{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+}
+
 
 
 
