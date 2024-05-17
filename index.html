@@ -7,11 +7,11 @@
     <meta name="author" content="Francisco Abreu"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dress-up Samara!</title> 
-    <link rel="stylesheet" href="samara.css" /> 
+    <link rel="stylesheet" href="samara.css" />
+
     <style class = "center">
       body{
-      background-image: url("dress_ur_samara_background.png");
-      
+      background-image: url("dress_ur_samara_background.png");   
     }
     </style>
      
@@ -19,8 +19,27 @@
  
   <body>
     
+    <!-- menu inicial -->
     <div class="title" style = "text-align: center; font-size:xx-large; margin-top: 40%;" >Dress-up Your Samara!
+        
         <button onclick = Play() id="pink" style ="height: 50px; width: 40%; display: block; margin: auto; background-color: plum; border-style: dashed; font-size: large; margin-top: 5%;"> Play! </button>   
+    </div>
+
+    <!-- menu dropwdown -->
+    <div id="container">
+    <div id="background">
+    <div id="samara"></div>
+    <div id="top"></div>
+    <div id="vestido"></div>
+    <div id="laço"></div>
+    </div>
+
+
+    <input type="button" value="NEXT" id="nextClothes"
+    onclick="nextClothes()">
+    <input type="button" value="NEXT" id="nextAccesories"
+    onclick="nextAccesories()">
+
     </div>
     
 

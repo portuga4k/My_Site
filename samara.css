@@ -1,9 +1,29 @@
-button:hover{
-   background-color: palevioletred;
-
+#container{
+  visibility: hidden;
+  position: absolute;
+  margin: auto;
+  background-image: url("images/dress_ur_samara_background.png");
 
 
 }
+
+
+#background {
+  position: absolute;
+  background-image: url("/images/dress_ur_samara_background.png");
+
+
+}
+
+#samara{
+
+   position: absolute;
+   
+
+   background-image: url("/images/samara_blush.png");
+}
+
+
 
 
 
@@ -15,7 +35,7 @@ button:hover{
 
 .title{
   font-family: "Brush Script MT", "Brush Script Std", cursive;
-  color: plum;
+  color: plum;  
   justify-items: center;
 
 }
