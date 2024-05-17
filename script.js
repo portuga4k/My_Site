@@ -4,12 +4,33 @@ function Play(){
    
 }
 
-function nextClothes(){
+function nextTops(){
 
 
 }
 
-function nextAccesories(){
 
+ 
+
+let topsArray = [
+
+   {      
+      "name":"pinkDress",
+      "imgSource": "/images/pink_dress.png",
+   },
+
+   { 
+      "name":"topVerde",
+      "imgSource": "/images/Top_verde.png",
+   }
    
-}
+]
+
+let accesoriesArray = [
+
+   { 
+     "name": "laco",
+     "imgSource": "/images/laço.png",
+
+   }
+] 

@@ -1,39 +1,44 @@
-#container{
-  visibility: hidden;
-  position: absolute;
-  margin: auto;
-  background-image: url("images/dress_ur_samara_background.png");
-
-
+body{
+   background-image: url("/images/dress_ur_samara_background.png");
+   background-repeat: no-repeat;
 }
 
 
-#background {
-  position: absolute;
-  background-image: url("/images/dress_ur_samara_background.png");
-
-
-}
 
 #samara{
 
    position: absolute;
-   
-
    background-image: url("/images/samara_blush.png");
 }
-
-
-
 
 
 #pink{
    font-family: "Comic Sans MS", "Comic Sans", cursive;
    border-color: pink;
    justify-content: center;
+   border-style: dashed;
+}
+
+#botoes{
+   
+   background-color: white;
+   
+}
+
+#armario{
+  background-color: plum;
+}
+
+#prateleiras{
+  justify-content: center;
+  margin-top: 225px;
+  justify-content: end;
+
+
 }
 
 .title{
+  
   font-family: "Brush Script MT", "Brush Script Std", cursive;
   color: plum;  
   justify-items: center;
@@ -41,12 +46,7 @@
 }
 
 
-.center{
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
-   width: 50%;
-}
+
 
 
 

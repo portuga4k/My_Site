@@ -7,25 +7,17 @@
     <meta name="author" content="Francisco Abreu"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dress-up Samara!</title> 
-    <link rel="stylesheet" href="samara.css" />
-
-    <style class = "center">
-      body{
-      background-image: url("dress_ur_samara_background.png");   
-    }
-    </style>
-     
+    <link rel="stylesheet" href="samara.css" />    
   </head>
  
   <body>
     
     <!-- menu inicial -->
-    <div class="title" style = "text-align: center; font-size:xx-large; margin-top: 40%;" >Dress-up Your Samara!
-        
-        <button onclick = Play() id="pink" style ="height: 50px; width: 40%; display: block; margin: auto; background-color: plum; border-style: dashed; font-size: large; margin-top: 5%;"> Play! </button>   
+    <div class="title" style = "text-align: center; font-size:xx-large; margin-top: 40%;" >Dress-up Your Samara!     
+        <button onclick = Play() id="pink" style ="height: 50px; width: 40%; display: block;background-color:plum; margin: auto; font-size: large; margin-top: 5%;"> Play! </button>   
     </div>
 
-    <!-- menu dropwdown -->
+    <!-- menu -->
     <div id="container">
     <div id="background">
     <div id="samara"></div>
@@ -33,12 +25,25 @@
     <div id="vestido"></div>
     <div id="laço"></div>
     </div>
+    </div>
 
+    <!-- buttons de mudança de roupa -->
 
-    <input type="button" value="NEXT" id="nextClothes"
-    onclick="nextClothes()">
-    <input type="button" value="NEXT" id="nextAccesories"
-    onclick="nextAccesories()">
+    <div id="armario">
+      
+      <div id="prateleiras" >
+       <div id=" botoes">
+        
+        <button id="pink" >TopsBefore</button>
+        <button onclick = nextTops() id="pink">TopsAfter</button>
+        </p><p>
+        <button id="pink">AcessoriesBefore</button>
+        <button id="pink">AccesoriesAfter</button>
+        </p>
+        <button id="pink">HairBefore</button>
+        <button id="pink">HairAfter</button>
+       </div>
+      </div>
 
     </div>
     
