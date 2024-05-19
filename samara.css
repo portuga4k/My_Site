@@ -1,15 +1,52 @@
 body{
-   background-image: url("/images/dress_ur_samara_background.png");
-   background-repeat: no-repeat;
+   
+   background-image: url("./images/dress_ur_samara_background.png");
+}
+
+#playSpace{
+
+  justify-content: flex-end;
+  padding-right: 20px;
+  margin-top: 70px;
+  padding-bottom: 90px;
+  padding-left: 20px;
 }
 
 
 
-#samara{
-
-   position: absolute;
+#samaraImage{
+   
    background-image: url("/images/samara_blush.png");
    background-repeat: no-repeat;
+   height: 400px;
+   width: 400px;
+   justify-content:center;
+   position: absolute;
+   
+}
+
+#pinkReady{
+ 
+   font-family: "Comic Sans MS", "Comic Sans", cursive;
+   font-size: xx-large;
+   border-color: white;  
+   border-style: dashed;
+   position: absolute;
+   background-color: plum;
+   padding-right: 10px;
+   padding-left: 10px;
+   padding-top: 3px;
+   padding-bottom: 3px;  
+   margin-left: 275px;
+
+}
+
+
+#clothes{
+   height: 400px;
+   width: 400px;
+   justify-content:center;
+   position: absolute;
 }
 
 
@@ -20,40 +57,40 @@ body{
    border-style: dashed;
 }
 
-#botoes{
-   
+.botoes:hover{
+   padding-left: 20px;
    background-color: white;
    justify-content: center;
-   
+   background-color: plum;
+   border-color: white;
    
 }
 
-#botoesTops{
-   padding-left: 38px;
+.botoes{
+   padding-left: 50px;
 }
 
-#botoesHair{
-   padding-left: 40px;
+#botoesSmall{
+   padding-right: 35px;
+   padding-left: 35px;
 }
+
 
 #armario{
   background-color: plum;
-  padding-left: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
   border-style: dashed;
   border-color: pink;
-  margin-top: 500px;  
-  
-  
+  margin-top: 325px;
+
 }
 
 #prateleiras{
-  
   padding-top: 10px;
   padding-bottom: 10px;
-  
-  
-
-
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .menu_principal{

@@ -7,22 +7,42 @@ function Play(){
 
 
 function nextTops(){
-   
-   
+   let topAtual = topsArray.number[i];
 
+   switch (topAtual){
+      case topsArray[i] === topsArray[length-1]: topAtual[1];
+      break;
+      
+      //continuar a logica aqui
+
+
+   }
+   
+}
+
+function previousTops(){
+   let topAtual = topsArray[i];
+
+   
+}
+
+function mudarImagem(){
+
+   
+      
 }
 
 
 let topsArray = [
 
-   {"name":"pinkDress", "imgSource": "/images/pink_dress.png"},
+   {"number": 1, "name":"vestidoRosa", "imgSource": "/images/pink_dress.png"},
 
-   {"name":"topVerde", "imgSource": "/images/Top_verde.png"}
+   {"number": 2, "name":"topVerde", "imgSource": "/images/Top_verde.png"}
          
 ]
 
 let accesoriesArray = [
 
-   {"name": "laco", "imgSource": "/images/laço.png"}
-   
+   {"number" : 1, "name" : "laço", "imgSource": "/images/laço.png"}
+
 ] 
