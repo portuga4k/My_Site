@@ -12,42 +12,43 @@
  
   <body>
     
-    <!-- menu inicial -->
+   <!--  menu inicial 
     <div class="menu_principal" style = "text-align: center; font-size:xx-large; margin-top: 40%;" >Dress-up Your Samara!     
         <button onclick = Play() id="pink" style ="height: 50px; width: 40%; display: block;background-color:plum; margin: auto; font-size: large; margin-top: 5%;"> Play! </button>   
-    </div>
+    </div> -->
 
-    <!-- menu -->
-    <div id="container">
-    <div id="background">
-    <div id="samara"></div>
-    <div id="top"></div>
-    <div id="vestido"></div>
-    <div id="laço"></div>
-    </div>
-    </div>
+  <!-- menu -->
+  <div id="container">
+  <div id="background">
+  <div id="samara"></div>
+  <div id="top"></div>
+  <div id="vestido"></div>
+  <div id="laço"></div>
+  </div>
+    
 
     <!-- buttons de mudança de roupa -->
 
-    <div id="armario">
-      
-      <div id="prateleiras" >
-       <div id=" botoes">
-        
-        <button id="pink" >TopsBefore</button>
-        <button onclick = nextTops() id="pink">TopsAfter</button>
+    <div id="armario">     
+      <div id="prateleiras">
+       <div id=" botoes">     
+        <div id="botoesTops">
+         <button id="pink" >TopsBefore</button>
+         <button onclick = nextTops() id="pink">TopsAfter</button></div>
         </p><p>
-        <button id="pink">AcessoriesBefore</button>
-        <button id="pink">AccesoriesAfter</button>
+         <button id="pink">AcessoriesBefore</button>
+         <button id="pink">AccesoriesAfter</button>
         </p>
-        <button id="pink">HairBefore</button>
-        <button id="pink">HairAfter</button>
+        <div id="botoesHair">
+         <button id="pink">HairBefore</button>
+         <button id="pink">HairAfter</button>
+        </div>
        </div>
       </div>
 
-    </div>
-    
+  </div>
 
+    </div>
   </body>
 
   <script src="script.js"></script>

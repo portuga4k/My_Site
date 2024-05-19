@@ -9,6 +9,7 @@ body{
 
    position: absolute;
    background-image: url("/images/samara_blush.png");
+   background-repeat: no-repeat;
 }
 
 
@@ -22,17 +23,35 @@ body{
 #botoes{
    
    background-color: white;
+   justify-content: center;
    
+   
+}
+
+#botoesTops{
+   padding-left: 38px;
+}
+
+#botoesHair{
+   padding-left: 40px;
 }
 
 #armario{
   background-color: plum;
+  padding-left: 50px;
+  border-style: dashed;
+  border-color: pink;
+  margin-top: 500px;  
+  
+  
 }
 
 #prateleiras{
-  justify-content: center;
-  margin-top: 225px;
-  justify-content: end;
+  
+  padding-top: 10px;
+  padding-bottom: 10px;
+  
+  
 
 
 }
