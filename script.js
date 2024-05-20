@@ -1,8 +1,17 @@
 function Play(){
    //mudar do modo de menu para modo de jogo
    //fazer com que apareça a Samara e os menus do jogo
-   var inicio = document.getElementsByClassName("title");
+   document.getElementById("menuPrincipal").style.display = "none";
+   document.getElementsByClassName("playSpace").style.display = "block";
+   document.getElementsByClassName("sprite").style.visibility = "block";
    
+
+}
+
+function Finish(){
+   document.getElementsByClassName("playSpace").style.display = "none";
+   document.getElementById("victoryScreen").style.display = "block";
+
 }
 
 

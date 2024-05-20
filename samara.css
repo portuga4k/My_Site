@@ -1,10 +1,9 @@
 body{
-   
    background-image: url("./images/dress_ur_samara_background.png");
 }
 
-#playSpace{
-
+.playSpace{
+  visibility: none;
   justify-content: flex-end;
   padding-right: 20px;
   margin-top: 70px;
@@ -16,17 +15,36 @@ body{
 
 #samaraImage{
    
-   background-image: url("/images/samara_blush.png");
+   
+   background-image: url("./images/samara_blush.png");
    background-repeat: no-repeat;
    height: 400px;
    width: 400px;
    justify-content:center;
    position: absolute;
+  
    
 }
 
+.sprite{
+  visibility: none;
+
+
+}
+
+#clothes{
+
+
+}
+
+#acessorio{
+
+
+}
+
 #pinkReady{
- 
+
+   visibility: none;
    font-family: "Comic Sans MS", "Comic Sans", cursive;
    font-size: xx-large;
    border-color: white;  
@@ -38,6 +56,7 @@ body{
    padding-top: 3px;
    padding-bottom: 3px;  
    margin-left: 275px;
+   margin-bottom: 450px;
 
 }
 
@@ -71,7 +90,8 @@ body{
 }
 
 #botoesSmall{
-   padding-right: 35px;
+   
+   padding-right: 50px;
    padding-left: 35px;
 }
 
@@ -82,28 +102,24 @@ body{
   padding-right: 30px;
   border-style: dashed;
   border-color: pink;
-  margin-top: 325px;
+  margin-top: 450px;
 
 }
 
 #prateleiras{
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
+  justify-content:space-between;
+  
+  
 }
 
-.menu_principal{
+#menuPrincipal{
   
+  padding-top: 55%;
   font-family: "Brush Script MT", "Brush Script Std", cursive;
   color: plum;  
   justify-items: center;
-
+  outline-color: white;
+  
 }
-
-
-
-
-
-
-
