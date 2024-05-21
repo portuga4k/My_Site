@@ -1,10 +1,11 @@
 function Play(){
    //mudar do modo de menu para modo de jogo
    //fazer com que apareça a Samara e os menus do jogo
-   document.getElementById("menuPrincipal").style.display = "none";
-   document.getElementsByClassName("playSpace").style.display = "block";
-   document.getElementsByClassName("sprite").style.visibility = "block";
+   const menuPrincipal = document.getElementById("menuPrincipal");
+   const playSpace = document.getElementsByClassName("playSpace");
+   const samaraSprite = document.getElementsByClassName("sprite");
    
+   menuPrincipal.remove();
 
 }
 
@@ -15,43 +16,43 @@ function Finish(){
 }
 
 
-function nextTops(){
-   let topAtual = topsArray.number[i];
 
-   switch (topAtual){
-      case topsArray[i] === topsArray[length-1]: topAtual[1];
-      break;
-      
-      //continuar a logica aqui
+//-------------------------------------------------
+var topsArray = ["/images/Top_verde.png","/images/pink_dress.png"];
+
+var accesoriesArray =["/images/laço.png"]
 
 
+
+
+function nextTops(element){
+
+   var topAtual = document.getElementsByClassName()
+
+   for(var i = 0; i<topsArray.length-1;i++){
+
+      if(topsArray[i].src == topAtual.src){
+
+         if(i === topsArray.length){
+
+            document.getElementById(element).src =topsArray[0].src;
+            break;
+         }
+         document.getElementById(element).src=topsArray[i+1].src;
+         break;
+      }
    }
-   
 }
+   
+   
+   
+ 
+
 
 function previousTops(){
-   let topAtual = topsArray[i];
 
+   
    
 }
 
-function mudarImagem(){
 
-   
-      
-}
-
-
-let topsArray = [
-
-   {"number": 1, "name":"vestidoRosa", "imgSource": "/images/pink_dress.png"},
-
-   {"number": 2, "name":"topVerde", "imgSource": "/images/Top_verde.png"}
-         
-]
-
-let accesoriesArray = [
-
-   {"number" : 1, "name" : "laço", "imgSource": "/images/laço.png"}
-
-] 
