@@ -18,41 +18,45 @@ function Finish(){
 
 
 //-------------------------------------------------
-var topsArray = ["/images/Top_verde.png","/images/pink_dress.png"];
+let state={
 
-var accesoriesArray =["/images/laço.png"]
+   top:0,
+   accessory:0,
 
-
-
-
-function nextTops(element){
-
-   var topAtual = document.getElementsByClassName()
-
-   for(var i = 0; i<topsArray.length-1;i++){
-
-      if(topsArray[i].src == topAtual.src){
-
-         if(i === topsArray.length){
-
-            document.getElementById(element).src =topsArray[0].src;
-            break;
-         }
-         document.getElementById(element).src=topsArray[i+1].src;
-         break;
-      }
-   }
 }
-   
-   
-   
- 
+
+topsNext();
 
 
-function previousTops(){
+function topsNext(){
+  let top = document.querySelector("#top");
 
-   
-   
+  if(state.top<3){
+
+   state.top++;
+   top.setAttribute("class", `top${state.top}`);
+  }else if(state.top === 3){
+   state.top = 0;
+   top.setAttribute("class", `top${state.top}`);
+  }  
+
 }
+
+function topsPrevious(){
+   let top = document.querySelector("#top");
+
+   if(state.top > 3){
+
+      state.top--;
+      top.setAttribute("class", `top${state.top}`);
+     }else if(state.top === 0){
+      state.top = 3;
+      top.setAttribute("class", `top${state.top}`);
+     } 
+
+
+}
+
+
 
 

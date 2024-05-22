@@ -21,45 +21,50 @@
 
     <!-- jogo em si -->  
   
-    <div style="padding-right: 15px;" class="sprite">
+    <div class="sprite">
 
      <!-- imagem base da samara -->
-       
-
-     <div class="head">
-       <img id="clothes" src="/images/samara_blush_body_default.png">
-     </div>
+      
+     <div id="top"></div>
       
      <!-- imagem do top atual -->
-      <div class="top">
-        <img id="clothes" src="/images/pink_dress.png"> 
-      </div>
+      <div id="top"></div>
 
       <!-- imagem do acessório atual -->
-      <div class="acessório">
-        <img  id="clothes" src="/images/laço.png">
-      </div>
+      <div id="acessório"></div>
     </div>
 
-    <div id="pinkReady"> 
+    <div> 
       <!--   botao de ready --> 
-      <button onclick = Finish() style="border-color: white; border-style: dashed; background-color: plum; font-family: Comic Sans MS, cursive; visibility: none; font-size: xx-large;">Ready!!</button>
+      <button onclick = Finish() style="border-color: white; border-style: dashed; background-color: plum; font-family: Comic Sans MS, cursive; visibility: none; font-size: xx-large; justify-content: flex-end;">Ready!!</button>
     </div>
 
     <!-- buttons de mudança de roupa -->
 
     <div id="armario">     
-      <div id="prateleiras">
+      
        <div style="padding-left: 19px;" class="botoes">     
-        <div style = "padding-bottom: 8px;"   id="botoesSmall">
-         <button style="padding: 5px; font-size:small;" onclick = previousTops()  id="pink" >Previous Top</button>
-         <button style="padding: 5px; font-size:small;" onclick = nextTops() id="pink">Next Top</button></div>
-        <div >
-         <button style="padding: 5px; font-size:small;" id="pink">Previous Acessory</button>
-         <button style="padding: 5px; font-size:small;" id="pink">Next Accesory</button>
+        <div style = "padding-bottom: 8px;" id="botoesSmall">
+         <button  style="padding: 5px; font-size:small;font-family: Comic Sans MS, Comic Sans, cursive;
+         border-color: pink;
+         justify-content: center;
+         border-style: dashed;" onclick = topsPrevious()  id="pink" >Previous Top</button>
+         <button  style="padding: 5px; font-size:small;font-family: Comic Sans MS, Comic Sans, cursive;
+         border-color: pink;
+         justify-content: center;
+         border-style: dashed;" onclick = topsNext() id="pink">Next Top</button></div>
+        <div>
+         <button style="padding: 5px; font-size:small;font-family: Comic Sans MS, Comic Sans, cursive;
+         border-color: pink;
+         justify-content: center;
+         border-style: dashed;" id="pink">Previous Acessory</button>
+         <button style="padding: 5px; font-size:small;font-family: Comic Sans MS, Comic Sans, cursive;
+         border-color: pink;
+         justify-content: center;
+         border-style: dashed;"
+         border-style: dashed; id="pink">Next Accesory</button>
         </div>
     
-     </div>
     </div>
 </div>  
 

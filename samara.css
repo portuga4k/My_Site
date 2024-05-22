@@ -1,8 +1,9 @@
 body{
-   background-image: url("./images/dress_ur_samara_background.png");
+   background-color: rgb(239, 194, 209);
+   background-image: linear-gradient();
 }
 
-.playSpace{
+.playSpace{  
   visibility: none;
   padding-right: 20px;
   margin-top: 10px;
@@ -11,23 +12,67 @@ body{
 }
 
 .sprite{
+   display: flex;
    background-repeat: no-repeat;
    height: 400px;
    width: 400px;
    justify-content:center;
    position: absolute;
+   margin-top: 120px;
+   padding-right: 70px;
+   justify-content: flex-start;
 
 }
 
-#clothes{
+
+#top{
+   background-repeat: no-repeat;
+   display: flex;
+   height: 400px;
+   width: 400px;
+   justify-content:center;
+   position: absolute;
+   margin-right: 120px;
+   justify-content: center;
+   z-index: 2;
+
+}
+
+.top0{
+
+   background-image: url("/images/samara_blush_default.png"); 
+   display: flex;
+   height: 400px;
+   width: 400px;
+   justify-content:center;
+   position: absolute;
+   margin-right: 120px;
+   justify-content: center;
+}
+
+.top1{
+
+   background-image: url("/images/pink_dress.png");
+   display: flex;
+   height: 400px;
+   width: 400px;
+   justify-content:center;
+   position: absolute;
+   margin-right: 120px;
+   justify-content: center;
    
-   padding-top:100px;
-
 }
 
-#pinkReady{
+.top2{
 
-   justify-content: flex-end;
+   background-image: url("/images/Top_verde.png");
+   display: flex;
+   height: 400px;
+   width: 400px;
+   justify-content:center;
+   position: absolute;
+   margin-right: 120px;
+   justify-content: center;
    
 }
 
@@ -37,21 +82,22 @@ body{
 }
 
 
-#clothes{
+
+
+#default{
    height: 400px;
    width: 400px;
    justify-content:center;
    position: absolute;
-   padding-right: 20px;
+   
+
+
 }
 
 
-#pink{
-   font-family: "Comic Sans MS", "Comic Sans", cursive;
-   border-color: pink;
-   justify-content: center;
-   border-style: dashed;
-}
+
+
+
 
 .botoes:hover{
    padding-left: 20px;
@@ -83,14 +129,6 @@ body{
   margin-left: 30px;
   
 
-}
-
-#prateleiras{
-  padding-top: 10px;
-  padding-bottom: 10px;
-  justify-content:space-between;
-  
-  
 }
 
 #menuPrincipal{
