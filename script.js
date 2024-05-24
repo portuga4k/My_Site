@@ -5,7 +5,7 @@ function Play(){
    const playSpace = document.getElementsByClassName("playSpace");
    const samaraSprite = document.getElementsByClassName("sprite");
    
-   menuPrincipal.remove();
+   
 
 }
 
@@ -25,11 +25,12 @@ let state={
 
 }
 
-topsNext();
+
 
 
 function topsNext(){
   let top = document.querySelector("#top");
+  let imagemTop =document.getElementById("top");
 
   if(state.top<3){
 
@@ -39,6 +40,16 @@ function topsNext(){
    state.top = 0;
    top.setAttribute("class", `top${state.top}`);
   }  
+
+  switch (state.top){
+   case (0): imagemTop.src = "./images/samara_blush_body_default.png";
+    break;
+   case (1): imagemTop.src = "./images/Top_verde.png";
+    break;
+   case (2): imagemTop.src = "./images/pink_dress.png";
+    break;
+
+  }
 
 }
 
