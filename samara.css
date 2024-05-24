@@ -60,9 +60,19 @@ body{
    
 }
 
-.top2{
+#accessory{
+   display: flex;
+   background-repeat: no-repeat;
+   position: absolute;
+   height: 400px;
+   width: 400px;
+   justify-content: center;
+   margin-top: 120px;
+   margin-right: 50px;
+}
 
-   background-image: url("./images/Top_verde.png");
+.accessory0{
+   background-image: url("./images/placeholder.gif");
    display: flex;
    height: 400px;
    width: 400px;
@@ -70,13 +80,22 @@ body{
    position: absolute;
    margin-right: 120px;
    justify-content: center;
-   
-}
-
-#victoryScreen{
-   visibility:collapse;
 
 }
+
+.accessory1{
+   background-image: url("./images/laço.png");
+   display: flex;
+   background-repeat: no-repeat;
+   position: absolute;
+   height: 400px;
+   width: 400px;
+   justify-content: center;
+   margin-top: 120px;
+   margin-right: 50px;
+}
+
+
 
 
 .botoes:hover{
@@ -98,25 +117,33 @@ body{
 }
 
 #armario{
-  
+  position: absolute;
   background-color: plum;
   padding-left: 5px;
   padding-right: 5px;
-  
   border-style: dashed;
   border-color: pink;
   margin-top: 475px;
   margin-left: 30px;
-  
-
 }
 
-#menuPrincipal{
-  
+#menuPrincipal{  
   padding-top: 55%;
   font-family: "Brush Script MT", "Brush Script Std", cursive;
   color: plum;  
   justify-items: center;
   outline-color: white;
-  
+
+}
+
+
+#victoryScreen{
+   
+  position: absolute;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  color: plum;   
+  justify-items: center;
+  margin-top: 20px;
+  outline-color: white;
+  margin-left: 95px;
 }

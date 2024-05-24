@@ -11,21 +11,19 @@
   </head>
  
   <body>
-   <!--   
-  
+     
+  <!--  
   <div id="menuPrincipal" style = "text-align: center; font-size:xx-large; " >Dress-up Your Samara!     
     <button onclick = Play() id="pink" style ="height: 50px; width: 40%; display: block;background-color:plum; margin: auto; font-size: large; margin-top: 5%;"> Play! </button>   
   </div> -->
 
-    <div class="playSpace">
+    <div id="playSpace">
 
     <!-- jogo em si -->  
   
-    
-
      <!-- imagem base da samara -->
       <div>
-        <img id="samara" src= "./images/samara_blush_body_default.png"></img>
+        <img id="samara" src= "./images/samara_blush_body_default.png">
       </div>
      <!-- imagem do top atual -->
       <div>
@@ -33,11 +31,13 @@
       </div>
 
       <!-- imagem do acessório atual -->
-      <div id="acessório"></div>
+      <div>
+        <img id="accessory" class="accessory0" src="./images/placeholder.gif">
+      </div>
    
     <div> 
       <!--   botao de ready --> 
-      <button onclick = Finish() style="border-color: white; border-style: dashed; background-color: plum; font-family: Comic Sans MS, cursive; visibility: none; font-size: xx-large; justify-content: flex-end;">Ready!!</button>
+      <button id="botaoFinish" onclick = Finish() style="border-color: white; border-style: dashed; background-color: plum; font-family: Comic Sans MS, cursive; visibility: none; font-size: xx-large; justify-content: flex-end;">Ready!!</button>
     </div>
 
     <!-- buttons de mudança de roupa -->
@@ -58,20 +58,18 @@
          <button style="padding: 5px; font-size:small;font-family: Comic Sans MS, Comic Sans, cursive;
          border-color: pink;
          justify-content: center;
-         border-style: dashed;" id="pink">Previous Acessory</button>
+         border-style: dashed;"  id="pink">Previous Acessory</button>
          <button style="padding: 5px; font-size:small;font-family: Comic Sans MS, Comic Sans, cursive;
          border-color: pink;
          justify-content: center;
-         border-style: dashed;"
-         border-style: dashed; id="pink">Next Accesory</button>
+         border-style: dashed;" onclick = accessoryNext() id="pink" >Next Accesory</button>
         </div>
     
     </div>
 </div>  
 
-<div id="victoryScreen">
-  <textarea id= "pink" style="text-align:center; font-size:xx-large; visibility: none;">SO PRETTY!!!!</textarea>
-
+<div id="victoryScreen" style="text-align:center; font-size:xx-large; visibility: hidden;">SO PRETTY!!!!
+  <button onclick = Play()  style ="height: 50px; width: 40%; display: block;background-color:plum; margin: auto; font-size: large; margin-top: 5%; font-family: Comic Sans MS, Comic Sans, cursive; font-size: xx-large; border-style: dashed; border-color: white;"> Play! </button>
 </div>
    
 </body>
